@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description"
+          content="Piyush Bipin Varule — AI/ML Developer Portfolio. Passionate about building intelligent systems, multi-agent architectures, and innovative software solutions.">
+     <meta name="keywords" content="Piyush, Portfolio, AI, ML, Developer, Full Stack, Python, JavaScript, React">
+     <meta name="author" content="Piyush Bipin Varule">
+     <title>Piyush | Portfolio</title>
+
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+          rel="stylesheet">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+     <!-- PRELOADER -->
+     <div id="preloader" aria-hidden="true">
+          <div class="preloader-inner">
+               <div class="preloader-ring"></div>
+               <span class="preloader-text">Piyush<span>.dev</span></span>
+          </div>
+     </div>
+
+     <!-- MOUSE GLOW FOLLOWER -->
+     <div id="mouse-glow" aria-hidden="true"></div>
+
+     <!-- PARTICLE CANVAS (Hero background) -->
+     <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
+     <nav class="navbar" id="navbar">
+          <div class="logo">Piyush<span>.dev</span></div>
+
+          <!-- Hamburger -->
+          <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+          </button>
+
+          <ul class="nav-links" id="nav-links">
+               <li class="active"><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#contact">Contact</a></li>
+          </ul>
+     </nav>
+
+     <section class="hero" id="home">
+          <div class="hero-content">
+               <h3 class="hero-greeting">Hello, I'm Piyush Bipin Varule 👋</h3>
+               <h1>
+                    <span id="typing"></span><span class="cursor">|</span>
+               </h1>
+
+               <p>
+                    A passionate developer expanding skills and discovering new ways
+                    to innovate through code and AI.
+               </p>
+
+               <a href="resume.pdf" class="btn-download" id="btn-download">
+                    <i class="fas fa-download"></i> DOWNLOAD CV
+               </a>
+
+               <div class="socials">
+                    <a href="https://www.linkedin.com/in/piyush-bipin-varule-04670932b/" target="_blank"
+                         rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/PIYUSH2006-NDA" target="_blank" rel="noopener noreferrer"
+                         aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.hackerrank.com/profile/piyushvarule15" target="_blank"
+                         rel="noopener noreferrer" aria-label="HackerRank"><i class="fab fa-hackerrank"></i></a>
+               </div>
+          </div>
+
+          <div class="hero-visuals">
+               <div class="orbit-system">
+
+                    <div class="center-avatar">
+                         <img src="new photo.jpg" alt="Piyush Bipin Varule" loading="eager">
+                    </div>
+
+                    <div class="orbit orbit-1">
+                         <div class="skill-bubble" data-skill="HTML5">
+                              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                   alt="HTML5">
+                         </div>
+                    </div>
+
+                    <div class="orbit orbit-2">
+                         <div class="skill-bubble" data-skill="CSS3">
+                              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                   alt="CSS3">
+                         </div>
+                    </div>
+
+                    <div class="orbit orbit-3">
+                         <div class="skill-bubble" data-skill="JavaScript">
+                              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                   alt="JavaScript">
+                         </div>
+                    </div>
+
+                    <div class="orbit orbit-4">
+                         <div class="skill-bubble" data-skill="React">
+                              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                   alt="React">
+                         </div>
+                    </div>
+
+                    <div class="orbit orbit-5">
+                         <div class="skill-bubble" data-skill="Python">
+                              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                   alt="Python">
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+     <section class="about" id="about">
+
+          <h2 class="section-title">
+               About Me
+               <span></span>
+          </h2>
+
+          <div class="about-container">
+
+               <!-- LEFT TEXT -->
+               <div class="about-text">
+
+                    <p class="reveal-text">
+                         I am a B.Tech student specializing in Artificial Intelligence and Machine Learning at Pimpri
+                         Chinchwad
+                         University, driven by the goal of building intelligent systems that solve real-world
+                         challenges.
+                    </p>
+
+                    <p class="reveal-text">
+                         With a strong foundation in Python, JavaScript, and Multi-Agent Systems, I have successfully
+                         led and
+                         developed complex projects, including FormGuard-Insight—an AI-driven offline data validation
+                         system—
+                         and MediBuddy v2, a healthcare assistant focused on medication adherence.
+                    </p>
+
+                    <p class="reveal-text">
+                         Beyond engineering, I bring a unique perspective from my background as an SEO-focused Content
+                         Writer,
+                         allowing me to bridge the gap between complex technical logic and clear, engaging
+                         communication.
+                    </p>
+
+                    <p class="reveal-text">
+                         Holding certifications from Google, Meta, and Oracle, I am committed to continuous learning in
+                         Generative AI and Cloud Infrastructure, always seeking opportunities to contribute to the
+                         global AI
+                         ecosystem.
+                    </p>
+
+                    <h3>Skills & Technologies</h3>
+
+                    <div class="skills">
+                         <span data-tip="Markup Language">HTML5</span>
+                         <span data-tip="Styling & Layout">CSS3</span>
+                         <span data-tip="Frontend Logic">JavaScript</span>
+                         <span data-tip="Backend & APIs">Mysql</span>
+                         <span data-tip="AI & Automation">Python</span>
+                         <span data-tip="Technical Writing">Content Writing</span>
+                         <span data-tip="Systems Programming">C++</span>
+                         <span data-tip="Design Thinking">UI/UX</span>
+                         <span data-tip="OOP & DSA">Java</span>
+                         <span data-tip="NoSQL Database">MongoDB</span>
+                         <span data-tip="Low-Level Programming">C</span>
+                    </div>
+               </div>
+
+               <!-- RIGHT CODE CARD -->
+               <div class="about-code">
+                    <div class="code-card-header">
+                         <span class="dot red"></span>
+                         <span class="dot yellow"></span>
+                         <span class="dot green"></span>
+                         <span class="code-card-title">developer.js</span>
+                    </div>
+                    <pre><code>
+<span class="code-line"><span class="keyword">const</span> developer = {</span>
+<span class="code-line">  name: <span class="string">"Piyush"</span>,</span>
+<span class="code-line">  role: <span class="string">"Computer Science Student"</span>,</span>
+<span class="code-line">  passion: <span class="string">"Expanding skills and discovering new ways to innovate"</span></span>
+<span class="code-line">};</span>
+</code></pre>
+               </div>
+
+          </div>
+     </section>
+     <section class="projects" id="projects">
+
+          <h2 class="section-title">
+               My Projects
+               <span></span>
+          </h2>
+
+          <div class="projects-container">
+
+               <!-- PROJECT 1 -->
+               <div class="project-card">
+                    <div class="project-image">
+                         <img src="form.png" alt="FormGuard-Insight" loading="lazy">
+                    </div>
+
+                    <div class="project-content">
+                         <h3>FormGuard-Insight 📝</h3>
+                         <p class="project-text">
+                              Built an advanced offline data-validation system that uses AI scoring, behavioral
+                              heuristics, and dynamic
+                              form rules to ensure high-integrity data entry in low-connectivity environments. Features
+                              include live
+                              anomaly detection, multi-form validation (Student/Hospital/Store), role-based review
+                              workflow,
+
+                              interactive analytics, export tools (CSV/JSON/PDF),
+                              <span class="dots">, more...</span>
+                              <span class="more-text"> and full offline storage using
+                                   IndexedDB.
+                                   Designed with React, Tailwind, Framer Motion, and Chart.js to deliver a secure,
+                                   smooth,
+                                   and highly
+                                   interactive user experience.
+                              </span>
+                              <span class="more-link">MORE</span>
+                         </p>
+
+                         <div class="project-tech">
+                              <span>Vite</span>
+                              <span> TypeScript</span>
+                              <span>React</span>
+                              <span>Tailwind CSS</span>
+                              <span>shadcn-ui</span>
+                         </div>
+
+                         <div class="project-links">
+                              <a href="https://formguard-insight-t7xy.vercel.app?_vercel_share=hoItwvxnonzGa9NlI5PUizqYszHp9ShH"
+                                   class="btn small">Live Demo</a>
+                              <a href="https://github.com/PIYUSH2006-NDA/formguard-insight" class="btn small outline"
+                                   target="_blank" rel="noopener noreferrer">GitHub</a>
+                         </div>
+                    </div>
+               </div>
+
+               <!-- PROJECT 2 -->
+               <div class="project-card">
+                    <div class="project-image">
+                         <img src="medi.png" alt="MediBuddy" loading="lazy">
+                    </div>
+
+                    <div class="project-content">
+                         <h3>MediBuddy v2 AI Multi-Agent Medication ⚕️</h3>
+                         <p class="project-text">
+                              Adherence Assistant Kaggle Project ,Designed an AI multi-agent system to improve
+                              medication adherence using intelligent task coordination.
+                              Implemented agents for reminder scheduling, user interaction, and adherence tracking.
+                              Utilized machine learning and rule-based logic to personalize medication alerts and
+                              monitor missed doses.
+                              <span class="dots">, more...</span>
+                              <span class="more-text">
+                                   Analyzed user behavior data to generate adherence insights and reports.
+                                   Focused on real-world healthcare use cases, improving reliability and user
+                                   engagement.
+                              </span>
+                              <span class="more-link">MORE</span>
+                         </p>
+
+                         <div class="project-tech">
+                              <span>Python</span>
+                              <span>Machine Learning</span>
+                              <span>Data Analysis</span>
+                              <span>Kaggle</span>
+
+                              <span> Multi-Agent Systems</span>
+                         </div>
+
+                         <div class="project-links">
+                              <a href="https://v0-medi-buddy-v2-project.vercel.app/" class="btn small">Live Demo</a>
+                              <a href="https://github.com/PIYUSH2006-NDA/HealthGuard-AI" class="btn small outline"
+                                   target="_blank" rel="noopener noreferrer">GitHub</a>
+                         </div>
+                    </div>
+               </div>
+
+               <!-- PROJECT 3 -->
+               <div class="project-card">
+                    <div class="project-image">
+                         <img src="blue.png" alt="Blue Insights" loading="lazy">
+                    </div>
+
+                    <div class="project-content">
+                         <h3>Blue Insights 🌊</h3>
+                         <p class="project-text">
+                              AI-Driven Unified Marine Data Platform
+                              Smart India Hackathon 2025 |
+                              Team aquadata
+                              Developed an AI-powered unified data platform integrating oceanographic data (temperature,
+                              salinity,
+                              satellite), fisheries data, and molecular biodiversity (eDNA) into a single system.
+                              Designed an end-to-end framework to transform raw marine data into actionable insights,
+                              including fish
+                              <span class="dots">, more...</span>
+                              <span class="more-text">
+                                   stock prediction, algal bloom risk assessment, and biodiversity hotspot
+                                   identification.
+                                   Applied machine learning and data analytics to support real-time monitoring and
+                                   predictive
+                                   stock prediction, algal bloom risk assessment, and biodiversity hotspot
+                                   identification.
+                                   Applied machine learning and data analytics to support real-time monitoring and
+                                   predictive
+                                   decision-making for scientists, policymakers, and fisheries managers.
+                                   Aligned the solution with Indias Blue Economy vision and SDG-14 (Life Below Water),
+                                   focusing on
+                                   sustainability, marine conservation, and data-driven governance.
+
+                              </span>
+                              <span class="more-link">MORE</span>
+                         </p>
+
+
+                         <div class="project-tech">
+                              <span>Python</span>
+                              <span>databases</span>
+                              <span>Docker</span>
+                              <span>cloud infrastructure</span>
+                              <span>JavaScript</span>
+                         </div>
+
+                         <div class="project-links">
+                              <a href="https://sih-project-psi-seven.vercel.app?_vercel_share=NZsAuazYbJj8DfB8Oj5lwDrRpaRLtrZP"
+                                   class="btn small">Live Demo</a>
+                              <a href="https://github.com/PIYUSH2006-NDA/SIH_PROJECT" class="btn small outline"
+                                   target="_blank" rel="noopener noreferrer">GitHub</a>
+                         </div>
+                    </div>
+               </div>
+               <!-- PROJECT 4 -->
+               <div class="project-card">
+                    <div class="project-image">
+                         <img src="jarvis.png" alt="J.A.R.V.I.S" loading="lazy">
+                    </div>
+
+                    <div class="project-content">
+                         <h3>J.A.R.V.I.S 🤖</h3>
+                         <p class="project-text">
+                              Developed JARVIS, a voice-controlled AI assistant capable of understanding natural
+                              language commands and executing system-level operations.
+                              The assistant runs in a console-based environment and uses LiveKit Agents for real-time
+                              audio processing and Google Gemini for intelligent reasoning.
+                              <span class="dots">, more...</span>
+                              <span class="more-text">
+                                   Implemented a tool-based architecture to safely perform actions such as opening
+                                   files,
+                                   checking battery status, and retrieving information via web search, while maintaining
+                                   strict control over system access.
+                              </span>
+                              <span class="more-link">MORE</span>
+                         </p>
+
+
+                         <div class="project-tech">
+                              <span>Python</span>
+                              <span>Google Gemini API</span>
+                              <span>Livekit AI</span>
+                         </div>
+
+                         <div class="project-links">
+                              <a href="#" class="btn small">Live Demo</a>
+                              <a href="#" class="btn small outline">GitHub</a>
+                         </div>
+                    </div>
+               </div>
+               <!-- PROJECT 5 -->
+               <div class="project-card">
+                    <div class="project-image">
+                         <img src="digi.png" alt="DIGIFOOT" loading="lazy">
+                    </div>
+
+                    <div class="project-content">
+                         <h3>DIGIFOOT 🦵</h3>
+                         <p class="project-text">
+                              Developed DigiFoot, an AI-powered 3D foot scanning and analysis application that uses
+                              smartphone cameras to generate accurate digital foot models and measurements.
+                              The application performs real-time image capture and 3D reconstruction using Computer
+                              Vision, OpenCV, Open3D, and Machine Learning techniques for detailed foot analysis.
+                              <span class="more-text">
+                                   Implemented features such as foot measurement extraction, 3D visualization, AI-based
+                                   model refinement, and export support for applications in custom footwear, orthopedic
+                                   analysis, and foot health monitoring.
+                              </span>
+                              <span class="more-link">MORE</span>
+                         </p>
+
+
+                         <div class="project-tech">
+                              <span>Python</span>
+                              <span>OpenCV</span>
+                              <span>PyTorch</span>
+                              <span>Computer Vision</span>
+                              <span>Machine Learning</span>
+                              <span>3D Reconstruction</span>
+                         </div>
+
+                         <div class="project-links">
+                              <a href="#" class="btn small">Live Demo</a>
+                              <a href="#" class="btn small outline">GitHub</a>
+                         </div>
+                    </div>
+               </div>
+
+
+
+          </div>
+     </section>
+     <section class="contact" id="contact">
+
+          <h2 class="section-title">
+               Get In Touch
+               <span></span>
+          </h2>
+
+          <div class="contact-container">
+
+               <!-- LEFT CONTENT -->
+               <div class="contact-text">
+
+                    <p class="contact-desc">
+                         I'm currently open to new opportunities and collaborations.
+                         Whether you have a project in mind, want to discuss potential
+                         roles, or just want to connect, feel free to reach out!
+                    </p>
+               </div>
+               <div class="contact-details">
+                    <p><i class="fas fa-envelope"></i> piyushvarule15@gmail.com</p>
+                    <p><i class="fas fa-location-dot"></i>Pune India</p>
+               </div>
+
+               <div class="contact-socials">
+                    <a href="https://github.com/PIYUSH2006-NDA" target="_blank" rel="noopener noreferrer"
+                         aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/piyush-bipin-varule-04670932b/" target="_blank"
+                         rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.hackerrank.com/profile/piyushvarule15" target="_blank"
+                         rel="noopener noreferrer" aria-label="HackerRank"><i class="fab fa-hackerrank"></i></a>
+               </div>
+
+          </div>
+
+          </div>
+     </section>
+
+     <!-- FOOTER -->
+     <footer class="footer">
+          <div class="footer-content">
+               <p>&copy; 2025 Piyush<span>.dev</span> — Built with passion & code.</p>
+          </div>
+     </footer>
+
+
+     <script src="script.js"></script>
+</body>
+
+</html>
